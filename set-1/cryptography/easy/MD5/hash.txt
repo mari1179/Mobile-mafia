@@ -1,0 +1,13 @@
+### You’ve intercepted a suspicious file containing what appear to be MD5 hashes.
+
+## Your mission is to reverse-engineer the hidden flag from them. 
+
+# Each hash corresponds to a word. Piece the words together to get the flag.
+
+1.532c28d5412dd75bf975fb951c740a30
+2.3116248dc2ff7b614c35157a83f00554
+3.cd13b6a6af66fb774faa589a9d18f906
+4.aab9e1de16f38176f86d7a92ba337a8d
+5.d55669822f1a8cf72ec1911e462a54eb
+6.01dedb945c1f290b2b3ffcac85808d69
+7.0800fc577294c34e0b28ad2839435945
