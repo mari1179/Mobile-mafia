@@ -1,0 +1,5 @@
+Description: 
+
+	“This image seems normal, but if you look closer, 
+you might find it’s carrying extra baggage inside. 
+Can you unzip its hidden contents and recover the flag?
