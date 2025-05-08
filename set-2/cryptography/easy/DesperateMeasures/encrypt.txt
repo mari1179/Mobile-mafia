@@ -1,0 +1,9 @@
+### Old systems die hard. Someone encrypted the flag using DES  and a key that's easy to guess.
+
+### They left this clue in a config file:
+
+	dc04f31e0341dad2d3b002cf05cb0261
+
+### Here’s the encrypted flag:
+
+	Message: BoWEjfbz0+G30JPdIdgDNRiL+pyej7u664u6nDWcz3pC8/WWF4kMyg==

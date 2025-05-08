@@ -1,0 +1,8 @@
+### The flag was base64-encoded three times.
+
+### Then encrypted with DES in ECB mode using a mysterious 8-byte key...
+
+	af23bced90b274f229d05c91d3f4c8a6
+
+
+	Encrypted Message: zK/mvIUJRpwd4FdWk/ptG/aQhPygWgL1NdGXN+h2NJPKZNkO2SHQg7mY4Ykb6H4AeggkUtj0n7pxyvlUSoT1dhrZs6pUa7bLj+ust+HVdMgEyExSCOgqzCS5yskHg7Em

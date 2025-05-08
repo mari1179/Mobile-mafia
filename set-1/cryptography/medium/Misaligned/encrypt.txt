@@ -1,0 +1,22 @@
+
+“You thought XOR was simple? Think again.”
+
+A flag was encrypted using XOR — but not in the way you're used to. The attacker used a secret 4-byte key to XOR the flag, but with a twist: **the key was misaligned before use**. That is, the key wasn’t applied from the start... it began at a shifted position.
+
+Unfortunately, the actual key isn’t provided -- hash(key):
+
+	key = 112f3a99b283a4e1788dedd8e0e5d35375c33747
+
+Encrypted flag (hex): 0c0804050d02390100010f0d1a1f091e3e060a0506090b090f1339051238121e08040d151c 
+
+
+### Your Mission
+
+Figure out the original key that matches the given hash. Then, reverse the misaligned XOR to reveal the flag.
+
+Hint:
+
+* The key is a 4-character ASCII string.
+* The XOR key was applied with a +2 byte misalignment.
+
+Can you crack it?

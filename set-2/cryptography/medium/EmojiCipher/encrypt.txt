@@ -1,0 +1,31 @@
+A mysterious message has been intercepted, but it doesn’t look like your typical ciphertext — it’s made entirely of emojis!
+Each emoji corresponds to a piece of hexadecimal data. Decode it correctly, and you might find something interesting.
+
+You are given a string of emojis. This string represents a hex-encoded flag — but instead of hex digits, each nibble has been replaced with an emoji using a custom mapping.
+
+  Can you reverse the emoji mapping and recover the original flag?
+
+
+### Hints:
+
+* Each emoji represents a 4-bit nibble (0–f in hex).
+* You might want to reconstruct the hexadecimal string before converting it to ASCII.
+* Here’s the emoji mapping used for encryption:
+
+| Emoji | Value | Emoji | Value |
+| ----- | ----- | ----- | ----- |
+| 😀    | 0     | 😊    | 9     |
+| 😁    | 1     | 😋    | a     |
+| 😂    | 2     | 😎    | b     |
+| 🤣    | 3     | 😍    | c     |
+| 😃    | 4     | 😘    | d     |
+| 😄    | 5     | 🥰    | e     |
+| 😅    | 6     | 😗    | f     |
+| 😆    | 7     |       |       |
+| 😉    | 8     |       |       |
+
+-
+
+	Encryted_flag: 😅😘😅😗😅😂😅😊😅😍😅😄😄😗😅😘😅😁😅😅😅😊😅😁😆😎😃😄😅😘😅😗😅😋😅😊😄😗😃😄😅🥰😅🤣😆😂😆😊😆😀😆😃😅😊😅😗😅🥰😄😗😅😊😆🤣😄😗😅😅😆😄😅🥰😆😘
+
+	Recover the original flag in the format: `mobile_mafia{...}`

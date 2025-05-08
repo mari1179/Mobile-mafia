@@ -1,0 +1,10 @@
+### The flag was base64-encoded three times.
+
+### After encoding, it was then AES-encrypted in ECB mode with the key
+
+### Who knows... maybe the key is hiding in these?
+
+		1. 9f961034ee4de758baf4de09ceeb1a75
+		2. 00b33b6e38e0419258bf802b53adb15b
+
+	Message: 1J3k3QQbQwqqNmjTG+TmabRGRaF9xP4PFfDHPJj2EFdD0518Rgbq6fx/vEM83rlI2D0e1dmfcsLRSOtaeubC4w29g56/am8omqc9eZ6iBCbcGx2IsJvop7jjyOt3zbGeM7bOdjbEcLbyzNO3++mP8baiSGNQGNwrgMeIbNz6thk=
